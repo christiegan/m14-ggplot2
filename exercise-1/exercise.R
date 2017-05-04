@@ -76,7 +76,7 @@ ggplot(data = diamonds.sample) +
 
 # That's kind of messy. Try using `smooth` geometry instead.
 ggplot(data = diamonds.sample) +
-  geom_smooth(mapping = aes(x - carat, y = price, color = carat))
+  geom_smooth(mapping = aes(x = carat, y = price, color = carat))
 
 
 # Draw a plot with bar geometry (a bar chart), mapping the diamond's `cut` to the x-axis
